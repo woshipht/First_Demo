@@ -33,6 +33,7 @@ class V3_Activity : AppCompatActivity() {
         tabLayout?.tabMode = TabLayout.MODE_FIXED
     }
 
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu,menu)
         return true
