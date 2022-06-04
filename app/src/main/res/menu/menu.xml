@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item android:id="@+id/Version_1"-->
+<!--        android:title="第1版"-->
+<!--        android:orderInCategory="1"/>-->
+
+<!--    <item android:id="@+id/Version_1_2"-->
+<!--        android:title="第1.2版"-->
+<!--        android:orderInCategory="1"/>-->
+
+    <item android:id="@+id/Version_2"
+        android:title="第2版"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/Version_3"
+        android:title="第3版"
+        android:orderInCategory="1"/>
+</menu>

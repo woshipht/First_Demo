@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/viewPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@mipmap/picture_1"/>
+
+    <TextView
+        android:id="@+id/titleViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/viewPicture"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="内容在此"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/authorViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/viewPicture"
+        android:layout_below="@id/titleViewText"
+        android:layout_marginTop="3dp"
+        android:text="内容在此"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/updateViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/viewPicture"
+        android:layout_below="@id/authorViewText"
+        android:layout_marginTop="2dp"
+        android:text="内容在此"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/typeViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/viewPicture"
+        android:layout_below="@id/updateViewText"
+        android:layout_marginTop="2dp"
+        android:text="内容在此"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/fireViewPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/viewPicture"
+        android:layout_below="@id/typeViewText"
+        android:layout_marginTop="17dp"
+        android:src="@mipmap/fire"/>
+
+    <TextView
+        android:id="@+id/fireViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/fireViewPicture"
+        android:text="内容在此"
+        android:layout_below="@id/typeViewText"
+        android:layout_marginTop="17dp"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/goodViewPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/typeViewText"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/good"/>
+
+    <TextView
+        android:id="@+id/goodViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/goodViewPicture"
+        android:text="内容在此"
+        android:textStyle="bold"
+        android:layout_below="@id/typeViewText"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/topViewPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFD400"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="2dp"
+        android:src="@mipmap/top_1" />
+
+</RelativeLayout>
